@@ -5,6 +5,10 @@
     gap: 5%;
 }
 
+.auto-margin{
+    margin: 0 auto;
+}
+
 .formA{
     width: 40%;
 }
