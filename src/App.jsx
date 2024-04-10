@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import DiffMatchPatch from 'diff-match-patch';
 import './App.css'
 
 function App() {
@@ -6,8 +7,10 @@ function App() {
     const [textAreaA, setTextAreaA] = useState('');
     const [textAreaB, setTextAreaB] = useState('');
 
+    const dmp = new DiffMatchPatch();
+
     const changeHandler = (e, id) => {
-        if(id === 'textAreaA') {
+        if(id === 'inputA') {
             setTextAreaA(e.target.value)
             console.log(textAreaA)
         }else{
