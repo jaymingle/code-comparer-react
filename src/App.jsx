@@ -9,6 +9,13 @@ function App() {
     const changeHandler = (e, id) => {
         console.log('Changed')
 
+        if(id === 'textAreaA') {
+            setTextAreaA(e.target.value)
+            console.log(textAreaA)
+        }else{
+            setTextAreaB(e.target.value)
+            console.log(textAreaB)
+        }
     }
 
   return (
