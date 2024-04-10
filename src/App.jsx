@@ -9,13 +9,16 @@ function App() {
       <div className="App">
           <div className="formA">
               Text A
-              <textarea name="" id="" cols="30" rows="10">
+              <textarea name="" id="" cols="60" rows="40">
                   
               </textarea>
           </div>
           <div className="formB">
-              <textarea name="" id="" cols="30" rows="10"></textarea>
               Text B
+
+              <textarea name="" id="" cols="60" rows="40">
+
+              </textarea>
           </div>
       </div>
   )
