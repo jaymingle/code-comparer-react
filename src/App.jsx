@@ -4,6 +4,7 @@ import './App.css'
 function App() {
 
     const [textAreaA, setTextAreaA] = useState('');
+    const [textAreaB, setTextAreaB] = useState('');
 
     console.log('app')
 
@@ -11,16 +12,13 @@ function App() {
       <div className="App">
           <div className="formA">
               Text A
-              <textarea name="" id="" cols="60" rows="40">
-                  
-              </textarea>
+              <textarea name="" id="" cols="60" rows="40"/>
+
           </div>
           <div className="formB">
               Text B
 
-              <textarea name="" id="" cols="60" rows="40">
-
-              </textarea>
+              <textarea name="" id="" cols="60" rows="40"/>
           </div>
       </div>
   )
