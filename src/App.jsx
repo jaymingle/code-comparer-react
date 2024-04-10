@@ -8,9 +8,8 @@ function App() {
 
     const changeHandler = (e, id) => {
         console.log('Changed')
-    }
 
-    console.log('app')
+    }
 
   return (
       <div className="App">
