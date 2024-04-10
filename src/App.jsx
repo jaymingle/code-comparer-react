@@ -9,8 +9,12 @@ function App() {
       <div className="App">
           <div className="formA">
               Text A
+              <textarea name="" id="" cols="30" rows="10">
+                  
+              </textarea>
           </div>
           <div className="formB">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
               Text B
           </div>
       </div>
