@@ -3,6 +3,8 @@ import './App.css'
 
 function App() {
 
+    const [textAreaA, setTextAreaA] = useState('');
+
     console.log('app')
 
   return (
