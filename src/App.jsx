@@ -17,12 +17,10 @@ function App() {
           <div className="formA">
               Text A
               <textarea value={textAreaA} onChange={e => changeHandler(e, 'inputA')} name="" id="" cols="60" rows="40"/>
-
           </div>
           <div className="formB">
               Text B
-
-              <textarea name="" id="" cols="60" rows="40"/>
+              <textarea value={textAreaB} onChange={e => changeHandler(e, 'inputB')} name="" id="" cols="60" rows="40"/>
           </div>
       </div>
   )
